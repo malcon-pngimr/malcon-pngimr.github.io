@@ -1,6 +1,6 @@
 ---
 title: "The Malaria Control Section (MalCon)"
-image: "logo_pngimr.png"
+image: "logo_png.png"
 links:
   - label: Dashboard
     url: ""
