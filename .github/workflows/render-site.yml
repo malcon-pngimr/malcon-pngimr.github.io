@@ -9,29 +9,15 @@ on:
 name: render-rmarkdown
 
 jobs:
-  render-rmarkdown:
+  build:
+    # The type of runner that the job will run on
+    name: build github webpages
     runs-on: ubuntu-latest
-    env:
-      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    container: 
+     image: myominnoo/tidyverse:dev0.1
     steps:
-      - uses: actions/checkout@v2
-
-      - uses: r-lib/actions/setup-pandoc@v1
-        with:
-          pandoc-version: '2.16.1'
-
-      - uses: r-lib/actions/setup-r@v1
-        with:
-          use-public-rspm: true
-
-      - uses: r-lib/actions/setup-r-dependencies@v2
-
-      - name: Render Rmarkdown files
-        run: rmarkdown::render("docs/index.Rmd")
-        shell: Rscript {0}
-
-      - name: Deploy to GitHub pages 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        with:
-          branch: gh-pages
-          folder: docs
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: render index files
+        run: |
+            bash ./scripts/render_index.sh "main" 
