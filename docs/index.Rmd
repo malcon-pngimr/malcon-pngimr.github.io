@@ -1,0 +1,21 @@
+---
+title: "The Malaria Control Section (MalCon)"
+image: "logo_pngimr.png"
+links:
+  - label: Dashboard
+    url: ""
+  - label: GitHub
+    url: "https://github.com/malcon-pngimr"
+  - label: PNGIMR
+    url: "https://www.pngimr.org.pg/"
+  - label: Email
+    url: "mailto:malcon@pngimr.org.pg"
+output:
+  postcards::trestles
+  # postcards::jolla_blue
+---
+
+
+The [Papua New Guinea Institute of Medical Research (PNGIMR)](https://www.pngimr.org.pg/) established the [malaria control section (MalCon)](https://malcon-pngimr.github.io/) in 2008 to conduct a country-wide malaria indicator survey towards the end of the first insecticide-treated net campaign. Since then, MalCon has been conducting operational research and evaluation activities in support of the National Malaria Control Program (NMCP). These activities largely contribute to generating evidence on outcomes and impacts of the Global Fund supported malaria control activities and inform the NMCP about the chaning malaria epidemiology across PNG and better malaria control intervention strategies. 
+
+Since 2008, MalCon has completed five repeated nation-wide malaria indicator surveys and another five health facility surveys between 2008 and 2021. 
