@@ -3,9 +3,9 @@ title: "The Malaria Control Section (MalCon)"
 image: "logo_png.png"
 links:
   - label: Dashboard
-    url: ""
+    url: "https://malcon-pngimr.github.io/malcon-dash/"
   - label: GitHub
-    url: "https://github.com/malcon-pngimr"
+    url: "https://github.com/malcon-pngimr/"
   - label: PNGIMR
     url: "https://www.pngimr.org.pg/"
   - label: Email
