@@ -4,6 +4,10 @@ image: "logo_png.png"
 links:
   - label: Dashboard
     url: "https://malcon-pngimr.github.io/malcon-dash/"
+  - label: Reports
+    url: "https://malcon-pngimr.github.io/reports/"
+  - label: Manuals
+    url: "https://malcon-pngimr.github.io/manuals/"
   - label: GitHub
     url: "https://github.com/malcon-pngimr/"
   - label: PNGIMR
