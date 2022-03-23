@@ -3,11 +3,11 @@ title: "The Malaria Control Section (MalCon)"
 image: "logo_png.png"
 links:
   - label: Dashboard
-    url: "https://malcon-pngimr.github.io/malcon-dash/"
+    url: "https://malcon.netlify.app/dash/"
   - label: Reports
-    url: "https://malcon-pngimr.github.io/reports/"
+    url: "https://malcon.netlify.app/reports/"
   - label: Manuals
-    url: "https://malcon-pngimr.github.io/manuals/"
+    url: "https://malcon.netlify.app/manuals/"
   - label: GitHub
     url: "https://github.com/malcon-pngimr/"
   - label: PNGIMR
@@ -20,6 +20,6 @@ output:
 ---
 
 
-The [Papua New Guinea Institute of Medical Research (PNGIMR)](https://www.pngimr.org.pg/) established the [malaria control section (MalCon)](https://malcon-pngimr.github.io/) in 2008 to conduct a country-wide malaria indicator survey towards the end of the first insecticide-treated net campaign in Papua New Guinea. Since then, MalCon has been conducting operational research and evaluation activities in support of the National Malaria Control Program (NMCP). These activities largely contribute to generating evidence on outcomes and impacts of the Global Fund supported malaria control activities and inform the NMCP about the chaning malaria epidemiology across PNG and better malaria control intervention strategies. 
+The [Papua New Guinea Institute of Medical Research (PNGIMR)](https://www.pngimr.org.pg/) established the [malaria control section (MalCon)](https://malcon.netlify.app/) in 2008 to conduct a country-wide malaria indicator survey towards the end of the first insecticide-treated net campaign in Papua New Guinea. Since then, MalCon has been conducting operational research and evaluation activities in support of the National Malaria Control Program (NMCP). These activities largely contribute to generating evidence on outcomes and impacts of the Global Fund supported malaria control activities and inform the NMCP about the chaning malaria epidemiology across PNG and better malaria control intervention strategies. 
 
 Since 2008, MalCon has completed five repeated nation-wide malaria indicator surveys and another five health facility surveys between 2008 and 2021. Currently, MalCon is conducting the health facility survey 2021 and it plans to repeat the malaria indicator survey in the third quarter of 2022. 
