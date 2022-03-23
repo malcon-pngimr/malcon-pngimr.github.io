@@ -1,0 +1,33 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/master/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+name: render-rmarkdown
+
+jobs:
+  build:
+    # The type of runner that the job will run on
+    name: build github webpages
+    runs-on: ubuntu-latest
+    container: 
+     image: myominnoo/tidyverse:dev0.1
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: render index files
+        run: |
+            bash ./scripts/render_index.sh "main" 
+
+  deploy:
+    name: 'Deploy to Netlify'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jsmrcaga/action-netlify-deploy@v1.1.0
+        with:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.MY_TOKEN_SECRET }}
+          NETLIFY_DEPLOY_TO_PROD: true
+          build_directory: 'docs'
