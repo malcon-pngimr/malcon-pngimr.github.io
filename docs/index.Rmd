@@ -3,11 +3,11 @@ title: "The Malaria Control Section (MalCon)"
 image: "logo_png.png"
 links:
   - label: Dashboard
-    url: "https://malcon.netlify.app/dash/"
+    url: "https://malcon-pngimr.github.io/malcon-dash/"
   - label: Reports
-    url: "https://malcon.netlify.app/reports/"
+    url: "https://malcon-pngimr.github.io/reports/"
   - label: Manuals
-    url: "https://malcon.netlify.app/manuals/"
+    url: "https://malcon-pngimr.github.io/manuals/"
   - label: GitHub
     url: "https://github.com/malcon-pngimr/"
   - label: PNGIMR
